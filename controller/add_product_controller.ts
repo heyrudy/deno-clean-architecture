@@ -17,7 +17,7 @@ export const addProduct = async (
     const product: { name: string; description: string; price: number } =
       body.value;
     const newProduct: {
-      id: number;
+      id: string;
       name: string;
       description: string;
       price: number;

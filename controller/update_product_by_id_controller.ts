@@ -17,15 +17,15 @@ export const updateProduct = async (
     response: any;
   },
 ) => {
-  const product = usecaseGetProductById.execute(parseInt(params.id));
+  const product = usecaseGetProductById.execute(params.id);
   if (product) {
     const body = await request.body();
     const updateData: {
-      id: number;
+      id: string;
       name: string;
       description: string;
       price: number;
-    } = { id: parseInt(params.id), ...body.value };
+    } = { id: params.id, ...body.value };
 
     const products = usecaseUpdate.execute(updateData);
 

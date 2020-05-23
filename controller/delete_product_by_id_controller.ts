@@ -11,7 +11,7 @@ const usecase = new DeleteProductByIdUsecase(data);
 export const deleteProduct = (
   { params, response }: { params: { id: string }; response: any },
 ) => {
-  const products = usecase.execute(parseInt(params.id));
+  const products = usecase.execute(params.id);
 
   response.status = 200;
   response.body = {

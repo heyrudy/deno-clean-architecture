@@ -11,7 +11,7 @@ const usecase = new GetProductByIdUsecase(data);
 export const getProduct = (
   { params, response }: { params: { id: string }; response: any },
 ) => {
-  const product = usecase.execute(parseInt(params.id));
+  const product = usecase.execute(params.id);
 
   if (product) {
     response.status = 200;
