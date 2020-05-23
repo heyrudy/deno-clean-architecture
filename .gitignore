@@ -1,0 +1,8 @@
+### server runtime's environment variables file
+.env
+
+### debug & local config
+.vscode/
+
+### miscellaneous files
+*.txt
