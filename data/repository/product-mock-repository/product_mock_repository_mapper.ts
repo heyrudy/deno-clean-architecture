@@ -15,7 +15,7 @@ export class ProductMockRepositoryMapper
 
   mapTo(param: Product): ProductMockEntity {
     return {
-      id: parseInt(v4.generate()),
+      id: v4.generate(),
       name: param.name,
       description: param.description,
       price: param.price,

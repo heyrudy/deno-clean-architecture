@@ -1,5 +1,5 @@
 export interface ProductMockEntity {
-  id: number;
+  id: string;
   name: string;
   description: string;
   price: number;
