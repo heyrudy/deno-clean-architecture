@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "source-age": "0",
+    "x-fastly-request-id": "ee5b0be67c68ec2e04a0285c85e0a980f12653c6",
+    "x-github-request-id": "AB1C:3CCF:2124D7:2A3467:5ECA03D7",
+    "x-cache-hits": "1, 1",
+    "strict-transport-security": "max-age=31536000",
+    "x-frame-options": "deny",
+    "x-served-by": "cache-cdg20728-CDG",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "set-cookie": "__cfduid=d4a2dfd4aae91fc1011617bef4206acb21590306288; expires=Tue, 23-Jun-20 07:44:48 GMT; path=/; domain=.deno.land; HttpOnly; SameSite=Lax; Secure",
+    "cf-ray": "598564bcbee9a8d9-CDG",
+    "x-xss-protection": "1; mode=block",
+    "via": "1.1 varnish (Varnish/6.0), 1.1 varnish",
+    "x-content-type-options": "nosniff",
+    "vary": "Authorization,Accept-Encoding",
+    "date": "Sun, 24 May 2020 07:44:48 GMT",
+    "cache-control": "max-age=300",
+    "x-cache": "HIT, HIT",
+    "x-timer": "S1590306288.141647,VS0,VE170",
+    "server": "cloudflare",
+    "content-type": "application/typescript; charset=utf-8",
+    "cf-request-id": "02e73d49f60000a8d9063c8200000001",
+    "expires": "Sun, 24 May 2020 07:49:48 GMT",
+    "cf-cache-status": "DYNAMIC",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "etag": "W/\"3ba98d8debfed880f09eae4721f19f994851ad54948741112a70899235a52080\"",
+    "access-control-allow-origin": "*"
+  },
+  "url": "https://deno.land/x/oak/cookies.ts"
+}
